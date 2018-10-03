@@ -9,3 +9,5 @@ cd s3fs-fuse
 make
 make install
 
+mkdir /tmp/s3fs
+cp /usr/local/bin/s3fs /usr/local/share/man/man1/s3fs.1 /lib64/libfuse.so.2.9.4 /lib64/libnuma.so.1 /tmp/s3fs
